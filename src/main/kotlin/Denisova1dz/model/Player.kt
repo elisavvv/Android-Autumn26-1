@@ -10,6 +10,6 @@ data class Player(
     val matches: Int,
     val goals : Int,
     val assists: Int,
-    val yellowCard: Int,
-    val redCard: Int
+    val yellowCards: Int,
+    val redCards: Int
 )
