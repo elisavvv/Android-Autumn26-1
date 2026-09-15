@@ -26,7 +26,7 @@ class InfrastructureTest {
         assertNotNull(javaClass.classLoader.getResourceAsStream("fakePlayers.csv"))
     }
 
-    // Тесты на парсер и маппинг
+    // Тесты на парсер
     //тест на то, что в таблице ячейки agency пустые, а в Player они null
     @Test
     fun `empty agency is mapped to null`() {
