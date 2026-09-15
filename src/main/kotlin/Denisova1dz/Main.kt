@@ -21,4 +21,7 @@ fun main() {
     println("6. Топ-3 полезных игрока: ${resolver.getMostValuablePlayers().map { it.name }}")
     println("7. Популярные агентства по странам: ${resolver.getMostPopularAgencyByCountry()}")
     println("8. Доли голов по медиане стоимости: ${resolver.getGoalsShareByMedianCost()}")
+
+    Task4Charts.showBasicChart(parseResult.players)
+    Task4Charts.showAdvancedChart(parseResult.players)
 }
